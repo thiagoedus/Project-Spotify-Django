@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Página principal */
+
+
+
+/* Página de login */
+
+.header {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.364);
+    text-align: center;
+    padding: 20px
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.link-login-facebook {
+    text-decoration: none;
+    color: white;
+    background: #1515ff;
+    padding: 15px 50px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.link-login-apple {
+    text-decoration: none;
+    color: white;
+    background: #15151f;
+    padding: 15px 50px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.link-login-google {
+    text-decoration: none;
+    color: gray;
+    background: white;
+    padding: 14px 49px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border: 1px solid gray
+}
+
+.link-login-telefone {
+    text-decoration: none;
+    color: gray;
+    background: white;
+    padding: 14px 49px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border: 1px solid gray
+}
+
+.container a:hover {
+    border: 1px solid black;
+    cursor:default;
+}
+
+.form-usuario {
+    padding: 15px 30%;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.entrar-usuario {
+    float: right;
+    background: #32cd32;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.link-inscricao {
+    text-decoration: none;
+    color: gray;
+    background: white;
+    padding: 14px 49px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid gray
+}
+
+.senha-esquecida {
+    padding-top: 10px;
+    color: black;
+
+}
+
+.inscreva-se {
+    margin-top: 45px;
+    border-top: 1px solid rgba(128, 128, 128, 0.549);
+}

@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-BR">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'vendor/css/styles.css' %}">
+    <title>Login - Spotify</title>
+</head>
+<body>
+    <div class="header">
+        <img src="{% static 'vendor/img/Spotify_Logo_CMYK_Black.png' %}" width="150" alt="">
+    </div>
+    <div class="container">
+        <div class="formulario">
+            <div class="login">
+
+                <h4>Para continuar, faça login no Spotify</h6>
+
+                <a href="#" class="link-login-facebook">   <img src="{% static 'vendor/img/logo-facebook.png' %}" width="15px" class="img-login-facebook" style="margin-right: 10px;"alt=""> Continuar com o facebook</a>
+
+                <div class="link-login-apple"><img src="{% static 'vendor/img/logo-apple.webp' %}" width="15px" style="margin-right: 10px;" class="img-login-facebook" alt=""> Continuar com a apple</div>
+
+                <a href="#" class="link-login-google"><img src="{% static 'vendor/img/logo-google.avif' %}" width="15px" class="img-login-facebook" style="margin-right: 10px;"alt=""> Continuar com o google</a>
+
+                <a href="#" class="link-login-telefone">Continuar com um número de telefone</a>
+
+                
+            </div>
+            <form action="">
+                <h4 style="text-align: left;">Endereço de e-mail ou nome de usuário</h4>
+
+                <input type="text" placeholder="Endereço de e-mail ou nome de usuário" class="form-usuario">
+
+                <h4 style="text-align: left;">Senha</h4>
+
+                <input type="text" placeholder="Senha" class="form-usuario">
+                <br>
+                <a href="#" class="senha-esquecida">Esqueceu a sua senha?</a>
+                <br><br>
+                <input type="checkbox" name="" id="lembrar-de-mim">    Lembrar de mim
+                <input type="button" value="Entrar" class="entrar-usuario">
+
+            </form>
+
+            <div class="inscreva-se">
+                <h4>Não tem uma conta? </h4>
+                <a href="" class="link-inscricao">Inscreva-se no spotify</a>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>
